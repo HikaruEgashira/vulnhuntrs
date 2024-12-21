@@ -48,7 +48,7 @@ cargo run -- -r example/python-vulnerable-app
 - Rust app(`example/rust-vulnerable-app`) + GPT-4o-latest
 ```bash
 export OPENAI_API_KEY=your-api-key
-cargo run -- -r example/rust-vulnerable-app -l gpt
+cargo run -- -r example/rust-vulnerable-app -m gpt-4o
 ```
 
 These examples are for educational purposes only. Do not use them in production environments.
