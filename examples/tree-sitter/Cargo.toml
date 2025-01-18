@@ -1,0 +1,17 @@
+[workspace]
+
+[package]
+name = "tree-sitter-examples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tree-sitter = "0.20.10"
+tree-sitter-python = "0.20.4"
+tree-sitter-javascript = "0.20.1"
+tree-sitter-typescript = "0.20.3"
+tree-sitter-java = "0.20.0"
+anyhow = "1.0"
+
+[dev-dependencies]
+tempfile = "3.8"
